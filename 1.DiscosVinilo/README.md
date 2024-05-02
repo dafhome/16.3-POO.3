@@ -1,5 +1,3 @@
-# 16.3-POO.3
- 
 Instructions
 Crear un arraylist con al menos 5 discos, con los datos: Artista, título, año, duración (pueden ser otros).
 
