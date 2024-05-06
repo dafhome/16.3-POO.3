@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -165,6 +164,7 @@ public class Vinilos {
             int d = 0;
             int e = 0;
             boolean validar = false;
+            boolean validarFormato = false;
 
             while (!validar) {
                 System.out.print("Opcion: ");
@@ -227,6 +227,7 @@ public class Vinilos {
                         b = scan.nextLine();
                         tienda.get(index).setDisco(b);
                         System.out.print("Precio nuevo: ");
+                        
                         c = scan.nextDouble();
                         tienda.get(index).setPrecio(c);
                         scan.nextLine();
